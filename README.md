@@ -17,4 +17,4 @@ $ cd /00-CHelloWorld
  
 $ HelloWorld.exe > output.txt
 ```
-El archivo resultado se puede observar en la rama. 
+El archivo resultado se puede observar en la rama como **output.txt**.
