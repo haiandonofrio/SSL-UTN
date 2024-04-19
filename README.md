@@ -1,13 +1,16 @@
 Entrega 00-CHelloWorld
 
-Se realizó la instalación del compilador usando MinGW y la extensión de C/C++ para Visual Studio Code.
+Se realizó la instalación del compilador usando MinGW GCC y la extensión de C/C++ para Visual Studio Code.
 
-Se creó el archivo HelloWorld.c que fue compilado con exito y generó el archivo HelloWorld.exe.
+Se creó el archivo HelloWorld.c que fue compilado 
 
-Luego se realizó una prueba unitario en la terminal y se dio el resultado en la misma. Se añade también una prueba almacenada en el archivo output.txt.
+$ gcc HelloWorld.c -o HelloWorld.exe
 
-Para generar dicho archivo se navego en la terminal hasta la carpeta 00-CHelloWorld y se ejecuto el comando con permisos de administrador:
+Luego se realizó una prueba unitaria en la terminal y se dio el resultado en la misma. Se añade también una prueba almacenada en el archivo output.txt.
 
-HelloWorld.exe > output.txt
+Para generar dicho archivo se navego en la terminal hasta la carpeta
+$ cd /00-CHelloWorld
+ 
+$ HelloWorld.exe > output.txt
 
 El archivo resultado se puede observar en la rama. 
